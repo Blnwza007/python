@@ -1,2 +1,3 @@
-test.py
-learn.py
+/test.py
+/learn.py
+/__pycache__/
