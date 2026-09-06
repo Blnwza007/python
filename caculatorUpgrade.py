@@ -49,7 +49,7 @@ def createButtonRow(root):
         if text == 'C':
             btn = tk.Button(root, text=text, font=('Arial', 12), command=onClearClick, width=5)
         elif text == '=':
-            btn = tk.Button(root, text=text, font=('Arial', 12), command=prank, width=5)
+            btn = tk.Button(root, text=text, font=('Arial', 12), command=onEqualClick, width=5)
         elif text == 'CC':
                     btn = tk.Button(root, text=text, font=('Arial', 12), command=onClearAllClick, width=5)
         else:                      
